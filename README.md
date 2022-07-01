@@ -2,6 +2,11 @@
 An email-based survey application built using Flutter Web and Node JS
 
 
+# Low Level Design
+
+![low-level-design] (https://res.cloudinary.com/dek0w0qnj/image/upload/v1656691267/survey-app_lld-1_oh6v7i.png)
+
+
 # Tech stack used
 
 ## Server/Backend
