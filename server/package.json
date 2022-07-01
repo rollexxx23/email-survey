@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.14.0",
+    "npm" : "8.5.0"
+  },
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server \""
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/icons-material": "^5.8.2",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.1.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "localtunnel": "^1.8.3",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "path-parser": "^3.0.1",
+    "stripe": "^8.222.0"
+  }
+}
